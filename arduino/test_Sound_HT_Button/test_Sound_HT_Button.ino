@@ -12,54 +12,70 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 const int pinButton = 3;
-//int buttonState = d0;
+int buttonState = 0;
+
+long t1;
+const int delay1 = 1000;
+
+int incomingByte = 0;
 
 void setup()
 {
     Serial.begin(9600);
-    Serial.println("DHTxx test!");
-    
+    t1 = millis();
     pinMode(pinButton, INPUT);
-    pinMode(SOUND_SENSOR, INPUT); 
- //   dht.begin();
+   // pinMode(SOUND_SENSOR, INPUT); 
+    dht.begin();
 }
 
 void loop()
 {
+  if(millis() - t1 > delay1){
+        
     //Lecture des valeurs = 250ms
-    //float h = dht.readHumidity();
-    //float t = dht.readTemperature();
-    int sensorValue = analogRead(SOUND_SENSOR);
+    float h = dht.readHumidity();
+    float t = dht.readTemperature();
+   // int sensorValue = analogRead(SOUND_SENSOR);
     
 
     
-  /*  if (isnan(t) || isnan(h))
+    if (isnan(t) || isnan(h))
     {
         Serial.println("Error DHT");
     }
     else
-    {*/
+    {
      
         Serial.print("{Humidity:");
-      //  Serial.print(h);
+        Serial.print(h);
         Serial.print(",");
         Serial.print("Temperature:");
-       // Serial.print(t);
-        Serial.print(",");
-        Serial.print("Sound:");
-        Serial.print(sensorValue);
+        Serial.print(t);
+        Serial.print("}");
         Serial.println("");
      
        
-  //  }
+   }
+   t1 = millis(); 
+}
     
-
-    /*
-    buttonState = digitalRead(pinButton);   
+    buttonState = digitalRead(pinButton);
+    
     if( buttonState == HIGH){
-        Serial.println("on");
+        Serial.println("click");
         buttonState = 1;
-    }else{
-         Serial.println("off");
-    }*/
+    }
+    
+     if (Serial.available() > 0) {
+          incomingByte = Serial.read();
+          
+          if(incomingByte == 48){
+            Serial.print("alarm");
+            Serial.println("");
+          }
+          
+          
+    }
+    
+    
 }

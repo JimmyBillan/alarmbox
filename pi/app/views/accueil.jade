@@ -1,0 +1,40 @@
+html
+	include ./includes/head.jade
+	
+	body()
+		nav.navbar.navbar-light.bg-faded.navbar-fixed-top
+			a.navbar-brand(href='#')= credit.nameSite
+			ul.nav.nav-tabs
+				li.nav-item
+					if !credit.params.isLogged
+						a.nav-link.active(id="nav_current") Veuillez vous connecter
+					else
+						a.nav-link.active(id="nav_current") Vous êtes connecté
+				
+			
+		div.container(id="container" style="margin-top: 70px;")
+			if !credit.params.isLogged
+				div(id="Auth")
+					div#Auth_form.col-xs-12.col-sm-12.col-md-8.col-lg-6
+						.fieldset.form-group
+							label(for="Auth_Identifiant") Identifiant AlarmBox
+							input#Auth_input_Identifiant.form-control(type='text' name="Auth_Identifiant" placeholder='Identifiant')
+							small.text-muted identifiant situé sous le boitier
+						.fieldset.form-group
+							button#Auth_btn_post.btn.btn-secondary(type='button' ) Valider
+			div(id="SetCalendar")
+				form.col-xs-12.col-sm-12.col-md-8.col-lg-6
+					.fieldset.form-group
+						label(for="SetCalendar_url") Importer votre calendrier au format ICS
+						input#SetCalendar_url.form-control(type='text' name="SetCalendar_url" placeholder="Ici le lien")
+						small.text-muted Coller ici l url vers un fichier ics)
+					.fieldset.form-group
+						label.file
+							input#SetCalendar_file(type="file")
+							span.file-custom
+					.fieldset.form-group
+						button#Auth_btn_post.btn.btn-secondary(type='button' ) Valider
+
+	script(type="text/javascript" src="/static/app.js")
+			
+		

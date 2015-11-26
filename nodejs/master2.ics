@@ -1,0 +1,1103 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.celcat.fr//NONSGML CreateICSFiles//FR
+X-WR-CALNAME:UniversitÃ© de Corse Pasquale Paoli
+BEGIN:VEVENT
+DTSTART:20151221T070000Z
+DTEND:20151221T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438545-16)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151228T070000Z
+DTEND:20151228T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438552-17)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151109T073000Z
+DTEND:20151109T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529184-10)
+SUMMARY:Cours - NIVET\, MARIE LAURE\, M2INF131-loT\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151207T073000Z
+DTEND:20151207T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529188-14)
+SUMMARY:TP - NIVET\, MARIE LAURE\, M2INF131-loT\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151116T080000Z
+DTEND:20151116T110000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529739-11)
+SUMMARY:Cours - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151214T080000Z
+DTEND:20151214T110000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529739-15)
+SUMMARY:Cours - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151109T091500Z
+DTEND:20151109T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529183-10)
+SUMMARY:Cours - NIVET\, MARIE LAURE\, M2INF131-loT\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151123T091500Z
+DTEND:20151123T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529344-12)
+SUMMARY:TD - SANTUCCI\, JEAN-FRANCOIS\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Se rendre au TEST Performance POIP \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151207T091500Z
+DTEND:20151207T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529186-14)
+SUMMARY:TP - NIVET\, MARIE LAURE\, M2INF131-loT\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151109T120000Z
+DTEND:20151109T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (550986-10)
+SUMMARY:TP - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:Terrain
+DESCRIPTION:Remarques : 202 IUT \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151116T120000Z
+DTEND:20151116T140000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529741-11)
+SUMMARY:TD - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151214T120000Z
+DTEND:20151214T140000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529741-15)
+SUMMARY:TD - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151123T120000Z
+DTEND:20151123T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529351-12)
+SUMMARY:TD - SANTUCCI\, JEAN-FRANCOIS\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Serendre au TEST Performance POIP \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151207T120000Z
+DTEND:20151207T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (550987-14)
+SUMMARY:TP - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151109T134500Z
+DTEND:20151109T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (550988-10)
+SUMMARY:TP - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:Terrain
+DESCRIPTION:Remarques : 202 IUT \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151123T134500Z
+DTEND:20151123T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (530008-12)
+SUMMARY:TD - SANTUCCI\, JEAN-FRANCOIS\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Se rendre au TEST Performance POIP \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151207T134500Z
+DTEND:20151207T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (550989-14)
+SUMMARY:TP - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151116T143000Z
+DTEND:20151116T163000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529742-11)
+SUMMARY:TP - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151214T143000Z
+DTEND:20151214T163000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529742-15)
+SUMMARY:TP - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151109T153000Z
+DTEND:20151109T170000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (550990-10)
+SUMMARY:TP - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:Terrain
+DESCRIPTION:Remarques : IUT 202 \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151123T153000Z
+DTEND:20151123T170000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (543266-12)
+SUMMARY:TP - URBANI\, DOMINIQUE\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151207T153000Z
+DTEND:20151207T170000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (550991-14)
+SUMMARY:TP - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151123T170000Z
+DTEND:20151123T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551969-12)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151130T170000Z
+DTEND:20151130T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551969-13)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151208T070000Z
+DTEND:20151208T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438559-14)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151222T070000Z
+DTEND:20151222T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438546-16)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151229T070000Z
+DTEND:20151229T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438553-17)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151124T073000Z
+DTEND:20151124T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529367-12)
+SUMMARY:TP - URBANI\, DOMINIQUE\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151201T073000Z
+DTEND:20151201T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529367-13)
+SUMMARY:TP - URBANI\, DOMINIQUE\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151110T073000Z
+DTEND:20151110T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529151-10)
+SUMMARY:Cours - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151215T073000Z
+DTEND:20151215T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529151-15)
+SUMMARY:Cours - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151117T080000Z
+DTEND:20151117T110000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529743-11)
+SUMMARY:Cours - CHABROL\, MIREILLE\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151124T091500Z
+DTEND:20151124T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529372-12)
+SUMMARY:TP - URBANI\, DOMINIQUE\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151201T091500Z
+DTEND:20151201T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529372-13)
+SUMMARY:TP - URBANI\, DOMINIQUE\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151110T091500Z
+DTEND:20151110T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (530104-10)
+SUMMARY:Cours - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151215T091500Z
+DTEND:20151215T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (530104-15)
+SUMMARY:Cours - URBANI\, DOMINIQUE\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151110T120000Z
+DTEND:20151110T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533940-10)
+SUMMARY:Cours - SANTUCCI\, JEAN-FRANCOIS\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151124T120000Z
+DTEND:20151124T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533960-12)
+SUMMARY:Cours - FILIPPI\, JEAN-BAPTISTE\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151201T120000Z
+DTEND:20151201T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533962-13)
+SUMMARY:Cours - BISGAMBIGLIA\, PAUL-ANTOINE\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151215T120000Z
+DTEND:20151215T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533955-15)
+SUMMARY:Cours - BISGAMBIGLIA\, PAUL-ANTOINE\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151117T130000Z
+DTEND:20151117T150000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529745-11)
+SUMMARY:TD - CHABROL\, MIREILLE\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151110T134500Z
+DTEND:20151110T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533941-10)
+SUMMARY:TD - SANTUCCI\, JEAN-FRANCOIS\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151124T134500Z
+DTEND:20151124T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533959-12)
+SUMMARY:TD - FILIPPI\, JEAN-BAPTISTE\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151201T134500Z
+DTEND:20151201T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533961-13)
+SUMMARY:TD - BISGAMBIGLIA\, PAUL-ANTOINE\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151215T134500Z
+DTEND:20151215T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533956-15)
+SUMMARY:TD - BISGAMBIGLIA\, PAUL-ANTOINE\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151117T150000Z
+DTEND:20151117T170000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529746-11)
+SUMMARY:TP - CHABROL\, MIREILLE\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151215T153000Z
+DTEND:20151215T170000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (543267-15)
+SUMMARY:TP - URBANI\, DOMINIQUE\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151124T170000Z
+DTEND:20151124T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551970-12)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151201T170000Z
+DTEND:20151201T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551970-13)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151111T070000Z
+DTEND:20151111T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438588-10)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151223T070000Z
+DTEND:20151223T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438547-16)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151230T070000Z
+DTEND:20151230T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438554-17)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151118T073000Z
+DTEND:20151118T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529998-11)
+SUMMARY:Cours - VALDRIGHI\, JOSE\, M2ST31-Anglais\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Se rendre au TEST Performance (alternants) POIP \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151125T073000Z
+DTEND:20151125T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529358-12)
+SUMMARY:Cours - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151202T073000Z
+DTEND:20151202T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529359-13)
+SUMMARY:Cours - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151209T073000Z
+DTEND:20151209T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529999-14)
+SUMMARY:Cours - VALDRIGHI\, JOSE\, M2ST31-Anglais\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151216T080000Z
+DTEND:20151216T110000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529126-15)
+SUMMARY:Cours - INNOCENTI\, ERIC\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : Salle MAC IUT \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151118T091500Z
+DTEND:20151118T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529785-11)
+SUMMARY:TD - VALDRIGHI\, JOSE\, M2ST31-Anglais\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : S rendre au TEST Performance (alternants) POIP \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151125T091500Z
+DTEND:20151125T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533946-12)
+SUMMARY:Cours - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151202T091500Z
+DTEND:20151202T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529360-13)
+SUMMARY:Cours - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151209T091500Z
+DTEND:20151209T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529786-14)
+SUMMARY:TD - VALDRIGHI\, JOSE\, M2ST31-Anglais\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : Examen \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151118T120000Z
+DTEND:20151118T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529758-11)
+SUMMARY:Cours - POGGI\, BASTIEN\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Se rendre au TEST Performance (alternants) POIP \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151125T120000Z
+DTEND:20151125T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533944-12)
+SUMMARY:TD - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151202T120000Z
+DTEND:20151202T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529361-13)
+SUMMARY:TD - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151209T120000Z
+DTEND:20151209T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529771-14)
+SUMMARY:Cours - ANTOINE SANTONI\, THIERRY\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Initiation à la recherche en M&S\, séminaires et applications \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151216T120000Z
+DTEND:20151216T140000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529129-15)
+SUMMARY:TD - INNOCENTI\, ERIC\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : Salle MAC IUT \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151118T134500Z
+DTEND:20151118T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529768-11)
+SUMMARY:TD - POGGI\, BASTIEN\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Se rendre au TEST Performance (alternants) POIP \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151125T134500Z
+DTEND:20151125T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533947-12)
+SUMMARY:TD - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151202T134500Z
+DTEND:20151202T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529362-13)
+SUMMARY:TD - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151209T134500Z
+DTEND:20151209T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529769-14)
+SUMMARY:TD - ANTOINE SANTONI\, THIERRY\, M2ST39-Disciplinaire:Initiation à la Rech en M&S  Séminaires\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Initiation à la recherche en M&S\, séminaires et applications \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151216T143000Z
+DTEND:20151216T163000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529131-15)
+SUMMARY:TP - INNOCENTI\, ERIC\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : Salle MAC IUT \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151125T153000Z
+DTEND:20151125T170000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533949-12)
+SUMMARY:TP - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151202T153000Z
+DTEND:20151202T170000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533942-13)
+SUMMARY:TP - CAPOCCHI\, LAURENT\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151125T170000Z
+DTEND:20151125T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551971-12)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151202T170000Z
+DTEND:20151202T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551971-13)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151224T070000Z
+DTEND:20151224T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438548-16)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151231T070000Z
+DTEND:20151231T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438555-17)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151119T073000Z
+DTEND:20151119T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529122-11)
+SUMMARY:Cours - M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : S.M. Carvalho \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151217T073000Z
+DTEND:20151217T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529189-15)
+SUMMARY:Cours - NIVET\, MARIE LAURE\, M2INF131-loT\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151112T080000Z
+DTEND:20151112T110000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529121-10)
+SUMMARY:Cours - UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : S.M. Carvalho \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151210T080000Z
+DTEND:20151210T110000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529141-14)
+SUMMARY:Cours - INNOCENTI\, ERIC\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : Salle MAC IUT \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151119T091500Z
+DTEND:20151119T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529755-11)
+SUMMARY:Cours - M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : S.M. Carvalho \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151126T091500Z
+DTEND:20151126T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (533939-12)
+SUMMARY:TD - BISGAMBIGLIA\, PAUL-ANTOINE\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151217T091500Z
+DTEND:20151217T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529195-15)
+SUMMARY:Cours - NIVET\, MARIE LAURE\, M2INF131-loT\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151112T120000Z
+DTEND:20151112T150000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529123-10)
+SUMMARY:TD - UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : S.M. Carvalho \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151119T120000Z
+DTEND:20151119T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529124-11)
+SUMMARY:TD - M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : S.M. Carvalho \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151126T120000Z
+DTEND:20151126T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (546674-12)
+SUMMARY:Cours - BISGAMBIGLIA\, PAUL-ANTOINE\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151203T120000Z
+DTEND:20151203T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (546675-13)
+SUMMARY:Cours - BISGAMBIGLIA\, PAUL-ANTOINE\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151210T120000Z
+DTEND:20151210T140000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529142-14)
+SUMMARY:TD - INNOCENTI\, ERIC\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : Salle MAC IUT \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151217T120000Z
+DTEND:20151217T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529196-15)
+SUMMARY:TD - NIVET\, MARIE LAURE\, M2INF131-loT\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151119T134500Z
+DTEND:20151119T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529756-11)
+SUMMARY:TD - M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : S.M. Carvalho \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151126T134500Z
+DTEND:20151126T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (546678-12)
+SUMMARY:TD - BISGAMBIGLIA\, PAUL-ANTOINE\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151203T134500Z
+DTEND:20151203T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (546679-13)
+SUMMARY:TD - BISGAMBIGLIA\, PAUL-ANTOINE\, UE14-Modélisation et Simulation\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151217T134500Z
+DTEND:20151217T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529197-15)
+SUMMARY:TD - NIVET\, MARIE LAURE\, M2INF131-loT\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151210T143000Z
+DTEND:20151210T163000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529143-14)
+SUMMARY:TP - INNOCENTI\, ERIC\, UE12-Développement d Applications Mobiles\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : Salle MAC IUT \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151126T170000Z
+DTEND:20151126T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551972-12)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151203T170000Z
+DTEND:20151203T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551972-13)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151225T070000Z
+DTEND:20151225T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438549-16)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160101T070000Z
+DTEND:20160101T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438556-17)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151120T073000Z
+DTEND:20151120T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529199-11)
+SUMMARY:TD - CUVILLIER\, GABRIEL\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151127T073000Z
+DTEND:20151127T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (530673-12)
+SUMMARY:Cours - NIVET\, MARIE LAURE\, UE15-PVP 3-EAP\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151218T073000Z
+DTEND:20151218T090000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529211-15)
+SUMMARY:Cours - BISGAMBIGLIA\, PAUL-ANTOINE\, CUVILLIER\, GABRIEL\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Examen \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151113T080000Z
+DTEND:20151113T110000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529738-10)
+SUMMARY:Cours - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151211T080000Z
+DTEND:20151211T110000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529740-14)
+SUMMARY:Cours - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151127T091500Z
+DTEND:20151127T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529752-12)
+SUMMARY:TD - NIVET\, MARIE LAURE\, UE15-PVP 3-EAP\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151120T091500Z
+DTEND:20151120T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529209-11)
+SUMMARY:TD - CUVILLIER\, GABRIEL\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151218T091500Z
+DTEND:20151218T104500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529210-15)
+SUMMARY:Cours - BISGAMBIGLIA\, PAUL-ANTOINE\, CUVILLIER\, GABRIEL\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Examen \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151113T120000Z
+DTEND:20151113T140000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529734-10)
+SUMMARY:TD - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151211T120000Z
+DTEND:20151211T140000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529734-14)
+SUMMARY:TD - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151120T120000Z
+DTEND:20151120T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529166-11)
+SUMMARY:TP - FOURES\, DAMIEN\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151127T120000Z
+DTEND:20151127T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529729-12)
+SUMMARY:TD - FOURES\, DAMIEN\, M2IN14I1-Gestion de Projet\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151218T120000Z
+DTEND:20151218T133000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529212-15)
+SUMMARY:TD - BISGAMBIGLIA\, PAUL-ANTOINE\, CUVILLIER\, GABRIEL\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Examen \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151120T134500Z
+DTEND:20151120T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529167-11)
+SUMMARY:TP - FOURES\, DAMIEN\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151218T134500Z
+DTEND:20151218T151500Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529215-15)
+SUMMARY:TD - BISGAMBIGLIA\, PAUL-ANTOINE\, CUVILLIER\, GABRIEL\, UE13-Internet Ambiant et Objet Connectés (loT)\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:Remarques : Examen \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151113T143000Z
+DTEND:20151113T163000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529737-10)
+SUMMARY:TP - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151211T143000Z
+DTEND:20151211T163000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (529737-14)
+SUMMARY:TP - CHABROL\, MIREILLE\, M2IN14I2-Démarche Qualité Logicielle\, MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:126
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151127T170000Z
+DTEND:20151127T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551973-12)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151204T170000Z
+DTEND:20151204T180000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (551973-13)
+SUMMARY:Revision alternant - MASTER 2 Informatique Spécialité S2I Pro
+LOCATION:
+DESCRIPTION:Remarques : ALTERNANCE \n
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151226T070000Z
+DTEND:20151226T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438550-16)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160102T070000Z
+DTEND:20160102T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438557-17)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151227T070000Z
+DTEND:20151227T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438551-16)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160103T070000Z
+DTEND:20160103T220000Z
+UID:CELCAT - UniversitÃ© de Corse Pasquale Paoli (438558-17)
+SUMMARY:Vacances-Fériés - 
+LOCATION:
+DESCRIPTION:
+CATEGORIES:CELCAT Timetabler (vcal) - UniversitÃ© de Corse Pasquale Paoli
+END:VEVENT
+END:VCALENDAR
