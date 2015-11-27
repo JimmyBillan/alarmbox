@@ -1,7 +1,7 @@
 var rest = require('../../app/controllers/rest');
 
 var express = require('express');
-var path        = require('path');
+
 
 function requireLogin (req, res, next) {
   if (req.session === undefined) {
@@ -14,10 +14,12 @@ function requireLogin (req, res, next) {
 
 module.exports = function(app) {
 
-		app.route('/auth/login').post(rest.loginPost);
+	app.route('/auth/login').post(rest.loginPost);
 
-		app.use('/auth/*',requireLogin, function(req, res, next){
-	        next()
-	    });
+	app.use('/auth/*',requireLogin, function(req, res, next){
+        next()
+    });
+
+    app.route('/auth/ics').post(rest.postICS);
 
 };

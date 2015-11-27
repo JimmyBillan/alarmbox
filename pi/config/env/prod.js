@@ -6,20 +6,35 @@ var sessionSecret = "ef5zeu5kQS3Ay2fz9zf7ze1f3aDaz1fv45rrg6r3za4z8v9e1gD131V3a1z
 var hashPassword = "sha512";
 
 var identifiant= "mdp";
-var	url_ics = null;
+var	ics = null;
+var files = null;
 var	alarm_time= 3600;
 
 
 module.exports = {
-	setUrl_ics : function(url) {
-		url_ics = url;
-	},
-	url_ics : url_ics,
 
 	setAlarm_time : function(time) {
 		alarm_time = time;
 	},
 	alarm_time : alarm_time,
+
+	getCalendarExist : function() {
+		if(ics != null)
+			return true;
+		else
+			return false;
+	},
+	getCalendar : function() {
+		return ics;
+	},
+
+	setCalendar : function(isUrl, path) {
+		if(isUrl)
+			ics = {type:"url", path};
+		else
+			ics = {type:"file", path};
+	},
+
 	identifiant : identifiant,
 	portHttp : portHttp,
 	portHttps : portHttps,

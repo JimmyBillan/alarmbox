@@ -22,18 +22,20 @@ html
 							small.text-muted identifiant situé sous le boitier
 						.fieldset.form-group
 							button#Auth_btn_post.btn.btn-secondary(type='button' ) Valider
-			div(id="SetCalendar")
-				form.col-xs-12.col-sm-12.col-md-8.col-lg-6
-					.fieldset.form-group
-						label(for="SetCalendar_url") Importer votre calendrier au format ICS
-						input#SetCalendar_url.form-control(type='text' name="SetCalendar_url" placeholder="Ici le lien")
-						small.text-muted Coller ici l url vers un fichier ics)
-					.fieldset.form-group
-						label.file
-							input#SetCalendar_file(type="file")
-							span.file-custom
-					.fieldset.form-group
-						button#Auth_btn_post.btn.btn-secondary(type='button' ) Valider
+			if !credit.params.calendarExist
+				div(id="SetCalendar")
+					form#SetCalendar.col-xs-12.col-sm-12.col-md-8.col-lg-6(action="/auth/ics" method="post" enctype="multipart/form-data")
+						.fieldset.form-group
+							label(for="SetCalendar_url") Importer votre calendrier au format ICS
+							input#SetCalendar_url.form-control(type='text' name="SetCalendar_url" placeholder="Ici le lien")
+							small.text-muted Coller ici l url vers un fichier ics)
+						span Ou bien : 
+						.fieldset.form-group
+							label.file
+								input#SetCalendar_file(type="file" accept=".ics")
+								span.file-custom
+						.fieldset.form-group
+							button#SetCalendar_btn_post.btn.btn-secondary(type='submit' ) Valider
 
 	script(type="text/javascript" src="/static/app.js")
 			

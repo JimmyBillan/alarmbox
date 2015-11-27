@@ -1,21 +1,26 @@
 var config = require('../../config/config');
 
+
 var credit = {
 		namePage : "Accueil",
 		nameSite : "AlarmBox",
 		params : {
-			isLogged : false
+			isLogged : false,
+			calendarExist : false
 		}
 		
 };
 
 // HTTP - GET
 exports.accueil = function(req, res) {
+
 	if(req.cookies.identifiant != undefined){
 		if(req.cookies.identifiant === config.identifiant){
-			credit.params.isLogged = true;
+			credit.params.isLogged = true; 
 		}
 	}
+	credit.params.calendarExist = config.getCalendarExist();
+
 	var accueil = {credit : credit};
 	console.log(accueil.credit.params);
 	
