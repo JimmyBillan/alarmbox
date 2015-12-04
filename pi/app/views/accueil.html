@@ -1,0 +1,50 @@
+<head>
+  <title>Alarmbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="MaterialIcons" rel="/static/stylesheet"/>
+  <link rel="stylesheet" href="/static/bootstrapV4.css"/>
+  <script type="text/javascript" src="/static/jquery.min.js"></script>
+  <script src="/static/bootstrapV4.js"></script>
+</head>
+<html>
+  <body>
+    <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+      <a href="#" class="navbar-brand">AlarmBox</a>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a id="nav_current" class="nav-link active">Veuillez vous connecter</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="container" style="margin-top: 70px;" class="container">
+      <div id="Auth">
+        <div id="Auth_form" class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
+          <div class="fieldset form-group">
+            <label for="Auth_Identifiant">Identifiant AlarmBox</label>
+            <input id="Auth_input_Identifiant" type="text" name="Auth_Identifiant" placeholder="Identifiant" class="form-control"/><small class="text-muted">identifiant situé sous le boitier</small>
+          </div>
+          <div class="fieldset form-group">
+            <button id="Auth_btn_post" type="button" class="btn btn-secondary">Valider</button>
+          </div>
+        </div>
+      </div>
+      <div id="SetCalendar">
+        <form id="SetCalendar" action="/auth/ics" method="post" enctype="multipart/form-data" class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
+          <div class="fieldset form-group">
+            <label for="SetCalendar_url">Importer votre calendrier au format ICS</label>
+            <input id="SetCalendar_url" type="text" name="SetCalendar_url" placeholder="Ici le lien" class="form-control"/><small class="text-muted">Coller ici l url vers un fichier ics)</small>
+          </div><span>Ou bien : </span>
+          <div class="fieldset form-group">
+            <label class="file">
+              <input id="SetCalendar_file" type="file" /><span class="file-custom"></span>
+            </label>
+          </div>
+          <div class="fieldset form-group">
+            <button id="SetCalendar_btn_post" type="submit" class="btn btn-secondary">Valider</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="/static/app.js"></script>
+</html>

@@ -19,7 +19,6 @@
     "jade": "^1.11.0",
     "jsonwebtoken": "^5.4.0",
     "morgan": "^1.6.1",
-    "sqlite3": "^3.1.0",
     "use-strict": "^1.0.1",
     "xss-escape": "0.0.6"
   }

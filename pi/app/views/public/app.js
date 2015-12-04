@@ -30,9 +30,6 @@ $( document ).ready(function(){
 				}
 			});
 		}
-
-
-
 	});
 
 	$('#SetCalendar').on('submit', function (e) {

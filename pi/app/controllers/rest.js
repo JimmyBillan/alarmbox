@@ -33,12 +33,12 @@ exports.postICS = function(req, res) {
     });
 
      form.on('end', function(fields, files){
-        var temp_path = this.openedFiles[0].path;
+        var temp_path = this.openedFiles[0].path;		
         console.log(temp_path);
-        /*
-        fs.writeFile('/tmp/fs.tmp', '', function(err) {
+        
+        fs.writeFile( path.join(__dirname,'../files/upload/calendar.ics'),  fs.readFileSync(temp_path), function(err) {
 		  if (err) throw err;
-		});*/
+		});
 
     });
 
