@@ -21,13 +21,13 @@ module.exports = function() {
     app.use(morgan('dev'));
 
     app.use('/static', express.static(path.join(__dirname,'../app/views/public/')));
-
+/*
     app.use(session({
       secret: config.sessionSecret,
       resave: false,
       saveUninitialized: true,
-      cookie: { secure: true }
-    })); 
+      cookie: { httpOnly: false, secure : false}
+    })); */
 
 	require('../app/routes/front.js')(app);
     require('../app/routes/rest.js')(app);

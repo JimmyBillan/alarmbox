@@ -1,0 +1,50 @@
+html
+	include ./includes/head.jade
+	script(type="text/javascript" src="/auth/static/panel.js")
+
+	body(style="padding-top: 70px;")
+		nav.navbar.navbar-light.bg-faded.navbar-fixed-top
+			a.navbar-brand(href= credit.domain )= credit.nom+" "+credit.prenom
+			a.navbar-brand()= "/" 
+			a.navbar-brand(href='#')="PANEL"
+			form(action=credit.domainSecure+"/auth/logout/", method='Get')
+				button.pull-right.btn.btn-primary-outline(id='btn_login') Log out
+		div.container
+			
+			div.col-xs-12.col-sm-6.p-T-5(id="DIV_ADD_CARD" )
+				h2(id="CC_LABEL_TITLE") ADD A CARD
+				form(id="CC_FORM" type="add" cardID="")
+					fieldset.form-group
+						input.form-control(type="text" id="CC_title" name="title" placeholder="Title")
+					fieldset.form-group
+						input.form-control(type="text" id="CC_subtitle" name="subtitle" placeholder="subtitle")
+					fieldset.form-group
+						input.form-control(type="text" id="CC_imageUrl" name="imageUrl" placeholder="Image Url")
+					fieldset.form-group
+						input.form-control(type="text" id="CC_description" name="description" placeholder="Description")
+					fieldset.form-group
+						input.form-control(type="text" id="CC_url1" name="url1" placeholder="Url 1")
+					fieldset.form-group
+						input.form-control(type="text" id="CC_descUrl1" name="descUrl1" placeholder="Text Url 1")
+					fieldset.form-group
+						input.form-control(type="text" id="CC_url2" name="url2" placeholder="Url 2")
+					fieldset.form-group
+						input.form-control(type="text" id="CC_descUrl2" name="descUrl2" placeholder="Text Url 2")
+					fieldset.form-group
+						div.btn-group(role="group")
+							button.btn.btn-secondary(type="button" id="CC_BTN_DELETE" style="display:none;") DELETE
+							button.btn.btn-secondary(type="button" id="CC_BTN_CANCELEDIT" style="display:none;") CANCEL EDIT
+							button.btn.btn-secondary(type="button" id="CC_BTN_POST") ADD
+							
+
+			div.col-xs-12.col-sm-6.p-T-5(id="DIV_LIST_CARD" style="display:block;")
+				h2 LIST OF CARDS
+				ul.list-group
+					each r in rowsCard
+						li.list-group-item
+							span.label.label-pill.label-primary.pull-right(id="LC_EDIT" value=r.id style="margin-top:1%;") Edit
+							a.card-link(href=credit.domain+'/card/'+r.id  target="_blank")= r.title+' - '+r.subtitle
+
+
+
+			

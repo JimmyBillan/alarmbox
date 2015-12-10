@@ -22,21 +22,21 @@ html
 							small.text-muted identifiant situé sous le boitier
 						.fieldset.form-group
 							button#Auth_btn_post.btn.btn-secondary(type='button' ) Valider
-			if !credit.params.calendarExist
-				div(id="SetCalendar")
-					form#SetCalendar.col-xs-12.col-sm-12.col-md-8.col-lg-6(action="/auth/ics" method="post" enctype="multipart/form-data")
-						.fieldset.form-group
-							label(for="SetCalendar_url") Importer votre calendrier au format ICS
-							input#SetCalendar_url.form-control(type='text' name="SetCalendar_url" placeholder="Ici le lien")
-							small.text-muted Coller ici l url vers un fichier ics)
-						span Ou bien : 
-						.fieldset.form-group
-							label.file
-								input#SetCalendar_file(type="file" accept=".ics")
-								span.file-custom
-						.fieldset.form-group
-							button#SetCalendar_btn_post.btn.btn-secondary(type='submit' ) Valider
-
+			else 
+				if !credit.params.calendarExist
+					div(id="paramaterMenu")
+						include ./includes/paramaterMenu.jade	
+				else
+					.btn-group(data-toggle='buttons')
+						button#showAlarm.btn Alarme
+						button#showParameter.btn Parametres
+						button#showSleepQuality.btn Qualité de sommeil
+					div(id="paramaterMenu" style="display:none;")
+						include ./includes/paramaterMenu.jade
+					div(id="SleepQuality")
+						span ici la qualité de sommeil
+					div(id="alarm")
+						span ici l'alarme		
 	script(type="text/javascript" src="/static/app.js")
 			
 		

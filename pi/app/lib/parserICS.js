@@ -16,6 +16,7 @@ function Event(){
 	this.CATEGORIES = null;
 
 	this.calenDate = function(icalStr, cb) {
+		console.log(icalStr);
 		var strYear = icalStr.substr(0,4);
 	    var strMonth = parseInt(icalStr.substr(4,2),10) - 1;
 	    var strDay = icalStr.substr(6,2);
@@ -29,7 +30,7 @@ function Event(){
 		var self = this;
 		var l = line.length;
 
-		this.calenDate(line.substr(l-16, l-1),function(d) {
+		this.calenDate(line.substr(l-17, l-1),function(d) {
 			var nD = new Date();
 			var today = nD.getFullYear()+":"+ nD.getMonth()+":"+nD.getDate();
 			var lD = d.getFullYear()+":"+d.getMonth()+":"+d.getDate();
@@ -41,7 +42,7 @@ function Event(){
 		var self = this;
 		var l = line.length;
 
-		this.calenDate(line.substr(l-16, l-1),function(d) {
+		this.calenDate(line.substr(l-17, l-1),function(d) {
 			var nD = new Date();
 			var today = nD.getFullYear()+":"+ nD.getMonth()+":"+nD.getDate();
 			var lD = d.getFullYear()+":"+d.getMonth()+":"+d.getDate();
@@ -62,10 +63,89 @@ function Event(){
 	};
 }
 
-var stream = require('fs').createReadStream('calendar.ics');
+exports.loadCalendar = function(cb) {
+	
+var path        = require('path');
+//var stream = require('fs').createReadStream(path.join(__dirname,'../files/upload/calendar.ics'),{autoClose : true});
 
-stream.on('error', function(error) {console.log("Error : ", error);});
-stream.on('readable', function () {
+require('fs').readFile(path.join(__dirname,'../files/upload/calendar.ics'), function(err, data) {
+	
+	var e = new Event();
+	var es = new Events();
+
+	data.toString().split("\n").forEach(function(line, index, arr) {
+	   if (index === arr.length - 1 && line === "") {
+	   	cb(null, es);
+	   }
+			   
+	   if(line.substr(0,12) === "BEGIN:VEVENT"){
+			e = new Event();
+		}else
+	 	if(line.substr(0,7) === "DTSTART"){
+	 		console.log(line);
+	 		e.setDTSTART(line);
+	 	}else
+	 	if(line.substr(0,5) === "DTEND"){
+	 		e.setDTEND(line);
+	 	}else
+	 	if(line.substr(0,3) === "UID"){
+	 		e.setUID(line);
+	 	}else
+	 	if(line.substr(0,7) === "SUMMARY"){
+	 		e.setSUMMARY(line);
+	 	}else
+	 	if(line.substr(0,8) === "LOCATION"){
+	 		e.setLOCATION(line);
+	 	}else
+	 	if(line.substr(0,10) === "CATEGORIES"){
+	 		//e.setCATEGORIES(line);
+	 	}
+	 	if(line.substr(0, 10) === "END:VEVENT"){
+	 		es.listEvent.push(e);
+	 	}
+  	});
+
+/*
+	var e = new Event();
+	var es = new Events();
+
+	rl.on('line', function (line) {
+
+		if(line.substr(0,12) === "BEGIN:VEVENT"){
+			e = new Event();
+		}else
+	 	if(line.substr(0,7) === "DTSTART"){
+	 		e.setDTSTART(line);
+	 	}else
+	 	if(line.substr(0,5) === "DTEND"){
+	 		e.setDTEND(line);
+	 	}else
+	 	if(line.substr(0,3) === "UID"){
+	 		e.setUID(line);
+	 	}else
+	 	if(line.substr(0,7) === "SUMMARY"){
+	 		e.setSUMMARY(line);
+	 	}else
+	 	if(line.substr(0,8) === "LOCATION"){
+	 		e.setLOCATION(line);
+	 	}else
+	 	if(line.substr(0,10) === "CATEGORIES"){
+	 		//e.setCATEGORIES(line);
+	 	}
+	 	if(line.substr(0, 10) === "END:VEVENT"){
+	 		es.listEvent.push(e);
+	 	}
+	});
+
+	rl.on('close',function() {
+		console.log(es);
+		cb(null, es);
+	})*/
+});
+/*
+stream.on('error', function(error) {cb(true, error)});
+stream.on('data', function () {
+	console.log("readble");
 	var rl = require('readline').createInterface({
 	  input: stream
 	});
@@ -103,10 +183,13 @@ stream.on('readable', function () {
 
 	rl.on('close',function() {
 		console.log(es);
+		cb(null, es);
 	})
 
 
-});
+});*/
+};
+
 
 
 

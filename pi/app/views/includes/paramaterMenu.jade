@@ -1,0 +1,34 @@
+
+div(id="yourParameter")
+	h2 Vos Parametres
+	
+	form.form-inline
+		.form-group
+			label Lapse de temps entre le premier rendez-vous et le reveil (en minute) :
+			br
+			.input-group
+				input#yourParameter_timeBeforeFirstEvent.form-control(style="width:70%" type="number" value= credit.params.timeBeforeFirstEvent)
+				button#yourParameter_timeBeforeFirstEvent_btn.btn(type='submit' ) valider
+
+	form.form-inline
+		.form-group
+			label Décaler l heure du reveil en fonction de ses phases de sommeil (en minute) :
+			br
+			.input-group
+				input#yourParameter_timeForPerfect.form-control(style="width:70%" type="number" value= credit.params.timeForPerfect)
+				button#yourParameter_timeForPerfect_btn.btn(type='submit' ) valider
+
+br
+br
+div(id="SetCalendar")
+	form#SetCalendar(action="/auth/ics" method="post" enctype="multipart/form-data")
+		.fieldset.form-group
+			label(for="SetCalendar_url") Importer votre calendrier au format ICS
+			input#SetCalendar_url.form-control(type='text' name="SetCalendar_url" placeholder="Ici le lien")
+			small.text-muted Coller ici l url vers un fichier ics
+		.fieldset.form-group
+			label.file(style="width: 100%;")
+				input#SetCalendar_file(type="file" )
+				span.file-custom
+		.fieldset.form-group
+			button#SetCalendar_btn_post.btn.btn-secondary(type='submit' ) Valider

@@ -1,9 +1,13 @@
-
-
+var mString = {
+	nav_current : {
+		connected : "Votre alarmeBox",
+		disconnected : "Veuillez vous connecter"
+	}
+}
 
 $( document ).ready(function(){
-
 	$('Auth_form').submit(false);
+	$('#yourParameter').submit(false);
 
 	$("#Auth_btn_post").click(function() {
 
@@ -17,7 +21,8 @@ $( document ).ready(function(){
 				statusCode : {
 					200 : function(data, textStatus, request) {
 						document.cookie="identifiant = "+request.getResponseHeader("identifiant")+"; expires=Thu, 21 Dec 2099 12:00:00 UTC";
-						location.reload();
+						//window.location.replace('http://'+location.hostname+':'+location.port+'/alarmBox');
+							location.reload();
 					},
 					202 : function() {
 	  					console.log('202 status code! user error');
@@ -28,9 +33,38 @@ $( document ).ready(function(){
 						self.blur();
 					}
 				}
-			});
+			}); 
 		}
 	});
+
+	$('#showParameter').click(function() {
+		$("#paramaterMenu").show(300);
+		$("#SleepQuality").hide(300);
+	})
+
+	$('#yourParameter_timeBeforeFirstEvent_btn').click(function() {
+		$.ajax({
+                url: '/auth/parameter/timeBeforeFirstEvent', 
+                dataType: 'json', 
+                data: {timeBeforeFirstEvent : $('#yourParameter_timeBeforeFirstEvent').val()},                         
+                type: 'post', 
+                success: function(res){
+                    console.log(res);
+                }
+     	});
+	})
+
+	$('#yourParameter_timeForPerfect_btn').click(function() {
+		$.ajax({
+                url: '/auth/parameter/timeForPerfect', 
+                dataType: 'json', 
+                data: {timeForPerfect : $('#yourParameter_timeForPerfect').val()},                         
+                type: 'post',
+                success: function(res){
+                    console.log(res);
+                }
+     	});
+	})
 
 	$('#SetCalendar').on('submit', function (e) {
         // On empêche le navigateur de soumettre le formulaire
@@ -39,18 +73,17 @@ $( document ).ready(function(){
         if( $('#SetCalendar_file').prop('files').length == 1){
         	var file_data = $('#SetCalendar_file').prop('files')[0];   
         	var form_data = new FormData();                  
-		    form_data.append('file', file_data);
-		    alert(form_data);                      
+		    form_data.append('file', file_data); 
         	$.ajax({
-                url: '/auth/ics', // point to server-side PHP script 
-                dataType: 'text',  // what to expect back from the PHP script, if anything
+                url: '/auth/ics', 
+                dataType: 'text', 
                 cache: false,
                 contentType: false,
                 processData: false,
                 data: form_data,                         
                 type: 'post',
                 success: function(res){
-                    console.log(res); // display response from the PHP script, if any
+                    console.log(res);
                 }
      		});
         }

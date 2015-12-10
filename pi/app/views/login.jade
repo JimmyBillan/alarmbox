@@ -1,0 +1,22 @@
+html
+	include ./includes/head.jade
+
+	body(style="padding-top: 70px;")
+		nav.navbar.navbar-light.bg-faded.navbar-fixed-top
+			a.navbar-brand(href= credit.domain )= credit.nom+" "+credit.prenom
+			a.navbar-brand()= "/" 
+			a.navbar-brand(href='/auth/login')="Login"
+		div.container
+			form.col-xs-12.col-sm-12.col-md-8.col-lg-6(action='/auth/login', method='post')
+				.form-group.row
+					label.col-sm-2.form-control-label(for='inputEmail3') Email
+					.col-sm-10
+						input#inputEmail3.form-control(type='email', name="mail" placeholder='Email'  required)
+				.form-group.row
+					label.col-sm-2.form-control-label(for='inputPassword3') Password
+					.col-sm-10
+						input#inputPassword3.form-control(type='password', name="password" placeholder='Password (12)'  pattern=".{12,}" required )
+				
+				.form-group.row
+					.col-sm-offset-2.col-sm-10
+						button.btn.btn-secondary(type='submit') Sign in

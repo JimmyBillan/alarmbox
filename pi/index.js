@@ -1,5 +1,6 @@
 process.env.NODE_ENV = process.env.NODE_ENV || 'prod';
-//require('use-strict')
+require('use-strict')
+
 
 var config 		= require('./config/config');
 var express     = require('./config/express');
@@ -9,16 +10,16 @@ var app         = express();
 var sqlite3 = require('sqlite3').verbose();
 
 //Used for Jade template file, not used in project (issue Pi)
-app.set('views', __dirname+'/app/views');
+/*app.set('views', __dirname+'/app/views');
 app.set('view engine', 'jade');
-
+*/
 //Set port for the application
 app.listen(config.portHttp, config.ipAllowed);
 module.exports = app;
 console.log(process.env.NODE_ENV  + ' server running at http://localhost:' + config.portHttp);
 
 
-/*
+/* 
 Import library serialport
 doc : https://www.npmjs.com/package/serialport
 */
@@ -29,7 +30,6 @@ var SerialPort = serialPort.SerialPort;
 // get list of port a
 serialPort.list(function(err, ports) {
 	ports.forEach(function(port) {
-		console.log(port.comName);
 	})
 })
 
@@ -45,7 +45,7 @@ try{
 	port.on('open', function(){
 	  
 		port.on('data', function(data){
-		   console.log(data);
+		   console.log("data serial : "+data);
 		});
 
 		infinite();
