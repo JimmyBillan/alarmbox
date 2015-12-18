@@ -16,7 +16,6 @@ function Event(){
 	this.CATEGORIES = null;
 
 	this.calenDate = function(icalStr, cb) {
-		console.log(icalStr);
 		var strYear = icalStr.substr(0,4);
 	    var strMonth = parseInt(icalStr.substr(4,2),10) - 1;
 	    var strDay = icalStr.substr(6,2);
@@ -30,25 +29,41 @@ function Event(){
 		var self = this;
 		var l = line.length;
 
-		this.calenDate(line.substr(l-17, l-1),function(d) {
-			var nD = new Date();
-			var today = nD.getFullYear()+":"+ nD.getMonth()+":"+nD.getDate();
-			var lD = d.getFullYear()+":"+d.getMonth()+":"+d.getDate();
-			self.DTSTART =  d;
-		}); 
+			if(line.substr(l-17, 1) == ":"){
+				this.calenDate(line.substr(l-16, 15),function(d) {
+				
+					var nD = new Date();
+					var today = nD.getFullYear()+":"+ nD.getMonth()+":"+nD.getDate();
+					var lD = d.getFullYear()+":"+d.getMonth()+":"+d.getDate();
+					self.DTSTART =  d;
+				}); 
+			}else{
+				this.calenDate(line.substr(l-17, 16),function(d) {
+				
+					var nD = new Date();
+					var today = nD.getFullYear()+":"+ nD.getMonth()+":"+nD.getDate();
+					var lD = d.getFullYear()+":"+d.getMonth()+":"+d.getDate();
+					self.DTSTART =  d;
+				}); 
+			}
+
+			
+		
+		
 	}
 
 	this.setDTEND = function(line) {
 		var self = this;
 		var l = line.length;
-
-		this.calenDate(line.substr(l-17, l-1),function(d) {
-			var nD = new Date();
-			var today = nD.getFullYear()+":"+ nD.getMonth()+":"+nD.getDate();
-			var lD = d.getFullYear()+":"+d.getMonth()+":"+d.getDate();
 			
-			self.DTEND = d;		
-		}); 
+			this.calenDate(line.substr(l-17, l-1),function(d) {
+				var nD = new Date();
+				var today = nD.getFullYear()+":"+ nD.getMonth()+":"+nD.getDate();
+				var lD = d.getFullYear()+":"+d.getMonth()+":"+d.getDate();
+				
+				self.DTEND = d;		
+			}); 
+		
 	}
 	this.setUID = function(line) {
 		this.UID = line.substr(4 , line.length- 1);
@@ -68,21 +83,23 @@ exports.loadCalendar = function(cb) {
 var path        = require('path');
 //var stream = require('fs').createReadStream(path.join(__dirname,'../files/upload/calendar.ics'),{autoClose : true});
 
-require('fs').readFile(path.join(__dirname,'../files/upload/calendar.ics'), function(err, data) {
+require('fs').readFile(path.join(__dirname,'../files/upload/calendar.ics'),"utf8", function(err, data) {
 	
+
 	var e = new Event();
 	var es = new Events();
-
 	data.toString().split("\n").forEach(function(line, index, arr) {
-	   if (index === arr.length - 1 && line === "") {
+	  	//console.log(arr.length);
+	   if (index === arr.length - 1 && line === "END:VCALENDAR" || index === arr.length - 1 && line === "") {
+	  
 	   	cb(null, es);
 	   }
+
 			   
 	   if(line.substr(0,12) === "BEGIN:VEVENT"){
 			e = new Event();
 		}else
 	 	if(line.substr(0,7) === "DTSTART"){
-	 		console.log(line);
 	 		e.setDTSTART(line);
 	 	}else
 	 	if(line.substr(0,5) === "DTEND"){
@@ -92,7 +109,7 @@ require('fs').readFile(path.join(__dirname,'../files/upload/calendar.ics'), func
 	 		e.setUID(line);
 	 	}else
 	 	if(line.substr(0,7) === "SUMMARY"){
-	 		e.setSUMMARY(line);
+	 		e.setSUMMARY(line);	
 	 	}else
 	 	if(line.substr(0,8) === "LOCATION"){
 	 		e.setLOCATION(line);
@@ -101,7 +118,9 @@ require('fs').readFile(path.join(__dirname,'../files/upload/calendar.ics'), func
 	 		//e.setCATEGORIES(line);
 	 	}
 	 	if(line.substr(0, 10) === "END:VEVENT"){
+	 		
 	 		es.listEvent.push(e);
+
 	 	}
   	});
 

@@ -16,8 +16,10 @@ exports.login = function(id, cb) {
   db.get('SELECT * FROM '+mB.dbName+' WHERE id = ? ',[box.id], function(err, row) {     
     
     if(row){
+
       cb(true);
     }else{
+       console.log(err);
       cb(false)
     }
     

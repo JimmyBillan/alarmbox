@@ -20,15 +20,18 @@ div(id="yourParameter")
 
 br
 br
-div(id="SetCalendar")
+div#SetCalendar.col-lg-7
 	form#SetCalendar(action="/auth/ics" method="post" enctype="multipart/form-data")
 		.fieldset.form-group
-			label(for="SetCalendar_url") Importer votre calendrier au format ICS
-			input#SetCalendar_url.form-control(type='text' name="SetCalendar_url" placeholder="Ici le lien")
+			label(for="SetCalendar_url" class="h3") Importer votre calendrier au format ICS
+			input#SetCalendar_url.form-control(type='url' name="SetCalendar_url" placeholder="Ici le lien")
 			small.text-muted Coller ici l url vers un fichier ics
+		.fieldset.form-group( style="margin-bottom :0rem")
+			label(style="width: 100%;")
+				small Ou bien
 		.fieldset.form-group
 			label.file(style="width: 100%;")
-				input#SetCalendar_file(type="file" )
+				input#SetCalendar_file(type="file" style="width: 100%;")
 				span.file-custom
 		.fieldset.form-group
 			button#SetCalendar_btn_post.btn.btn-secondary(type='submit' ) Valider

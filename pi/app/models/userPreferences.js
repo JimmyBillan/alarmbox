@@ -25,7 +25,28 @@ class userPreferences{
       return null;
     }
   }
-  
+
+  static alarmCancel(cb){
+    var db    = new sqlite3.Database('jimmybillan.db');
+    var stmt = db.prepare("UPDATE userPreferences SET alarmTime = null");
+          stmt.run(function(err) {
+              if(err)cb(err)
+              else cb(null);
+            db.close();
+          });
+    stmt.finalize();
+  }
+
+  static alarmEnable(mdate, cb){
+    var db    = new sqlite3.Database('jimmybillan.db');
+    var stmt = db.prepare("UPDATE userPreferences SET alarmTime = ?");
+          stmt.run(mdate,function(err) {
+              if(err)cb(err)
+              else cb(null);
+            db.close();
+          });
+    stmt.finalize();
+  }
 
   updatetimeBeforeFirstEvent(cb) {
     this.timeBeforeFirstEvent = userPreferences.timeIsValid(parseInt(this.timeBeforeFirstEvent));
@@ -90,6 +111,29 @@ exports.getuserpreference = function(cb) {
 
     });
 };
+exports.setalarm = function(datealarm) {
+      var db    = new sqlite3.Database('jimmybillan.db');
+      var stmt = db.prepare("UPDATE "+mB.dbName+" SET alarmTime=? WHERE id = ?");
+      stmt.run(datealarm, mB.userId, function(err) {
+       
+      db.close();
+      });
+      stmt.finalize();
+}
+
+exports.getalarm = function(cb) {
+   var db    = new sqlite3.Database('jimmybillan.db');
+   db.get('SELECT alarmTime FROM userPreferences WHERE id = ?',[1], function(err, row) {      
+    
+    if(err)
+      cb(err)
+    else
+      cb(row);
+    db.close();
+
+    });
+};
+
 
 exports.getgotCalendar = function(cb) {
    var db    = new sqlite3.Database('jimmybillan.db');
@@ -101,6 +145,15 @@ exports.getgotCalendar = function(cb) {
     });
 
 };
+
+exports.alarmCancel = function(cb) {
+  userPreferences.alarmCancel(cb);
+};
+
+exports.alarmEnable = function(mdate, cb) {
+  userPreferences.alarmEnable(mdate, cb);
+};
+
 
 
  /* var db    = new sqlite3.Database('jimmybillan.db');

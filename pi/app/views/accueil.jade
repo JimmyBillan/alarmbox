@@ -11,9 +11,9 @@ html
 					else
 						a.nav-link.active(id="nav_current") Vous êtes connecté
 				
-			
-		div.container(id="container" style="margin-top: 70px;")
-			if !credit.params.isLogged
+
+		if !credit.params.isLogged
+			div.container(id="container" style="margin-top: 70px;")
 				div(id="Auth")
 					div#Auth_form.col-xs-12.col-sm-12.col-md-8.col-lg-6
 						.fieldset.form-group
@@ -22,21 +22,53 @@ html
 							small.text-muted identifiant situé sous le boitier
 						.fieldset.form-group
 							button#Auth_btn_post.btn.btn-secondary(type='button' ) Valider
-			else 
+		else 
+			#menu_item.btn-group(data-toggle='buttons' style="padding-left: 3px;margin-top:58px;width:100%;")
+					button#showAlarm.btn(style="width:33.3%;") Alarme
+					button#showParameter.btn(style="width:33.3%;") Parametres
+					button#showSleepQuality.btn(style="width:33.3%;") Sommeil
+			div.container(id="container" style="margin-top: 12px;")
+				
 				if !credit.params.calendarExist
-					div(id="paramaterMenu")
-						include ./includes/paramaterMenu.jade	
+						div(id="paramaterMenu")
+							include ./includes/paramaterMenu.jade
+						div(id="SleepQuality" style="display:none;")
+							div(style="width:100%; max-height:500px")
+								div#hereCanvas
+									canvas(id="canvas" height="450" width="600")
+								button#dezoom -
+								button#zoom + 
+						div(id="alarm")
+							span AUCUNE ALARME !!		
 				else
-					.btn-group(data-toggle='buttons')
-						button#showAlarm.btn Alarme
-						button#showParameter.btn Parametres
-						button#showSleepQuality.btn Qualité de sommeil
-					div(id="paramaterMenu" style="display:none;")
-						include ./includes/paramaterMenu.jade
-					div(id="SleepQuality")
-						span ici la qualité de sommeil
-					div(id="alarm")
-						span ici l'alarme		
+						div(id="alarm")
+							div#card.card
+								b Alarme automatique :
+								br
+								span= credit.params.alarmTime
+								br
+								b Heure :
+								br
+								span= credit.params.event.DTSTART
+								br
+								b Sommaire :
+								br
+								span= credit.params.event.SUMMARY
+								br
+								if credit.params.AlarmSet
+									button#setAlarm(type="cancel" date=credit.params.hiddenAlarm ) Annuler l'alarme
+								else
+									button#setAlarm(type="enable" date=credit.params.hiddenAlarm) Activer l'alarme
+						div(id="paramaterMenu" style="display:none;")
+							include ./includes/paramaterMenu.jade
+						div(id="SleepQuality" style="display:none; height:500px; width:100%")
+							div(style="width:100%; height:100%")
+								div#hereCanvas
+									canvas(id="canvas" height="450" width="600")
+								
+								button#zoom +
+								button#cancelAnalyse Arreter l'analyse 
+								button#startAnalyse Commencer l'analyse 
 	script(type="text/javascript" src="/static/app.js")
 			
 		

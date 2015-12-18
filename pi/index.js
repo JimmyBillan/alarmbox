@@ -1,4 +1,5 @@
 process.env.NODE_ENV = process.env.NODE_ENV || 'prod';
+process.env.TZ = 'Europe/Paris';
 require('use-strict')
 
 
@@ -19,48 +20,67 @@ module.exports = app;
 console.log(process.env.NODE_ENV  + ' server running at http://localhost:' + config.portHttp);
 
 
-/* 
+/*
 Import library serialport
 doc : https://www.npmjs.com/package/serialport
 */
 var serialPort = require("serialport");
 var SerialPort = serialPort.SerialPort; 
+var dateFormat = require('dateformat');
+var Capteur = require('./app/models/capteur.js');
+var userpreference = require('./app/models/userPreferences.js');
 
 //listen on the port define 
-// get list of port a
-serialPort.list(function(err, ports) {
-	ports.forEach(function(port) {
-	})
-})
+//todo : get list of port and find the serial
 
-try{
-	var port = new SerialPort("/dev/ttyACM0",{
-		 parser: serialPort.parsers.readline("\n")
-	}, false);
+var port = new SerialPort("/dev/ttyACM0",{
+	  parser: serialPort.parsers.readline("\n")
+});
 
-	port.on('error',function(err) {
-		console.log(err);
-	});
 
-	port.on('open', function(){
-	  
-		port.on('data', function(data){
-		   console.log("data serial : "+data);
+
+port.on('open', function(){
+  
+  port.on('data', function(s){
+
+  
+       
+       try {
+       	console.log(s);
+	    data = JSON.parse(s);
+	    var c = Capteur.newObject(1,dateFormat(new Date(), "yyyy-mm-dd HH:MM"),null, data.T, data.H, data.A, data.L);
+	    c.save();
+	  } catch (e) {
+		
+		return console.error(e);
+	  }
+  });
+
+infinite();
+function infinite () {
+	setTimeout(function() {
+		userpreference.getalarm(function(row) {
+			
+			if(row.alarmTime != null){
+				var now = Math.round(new Date().getTime() / 1000);
+				console.log(now+ " - "+row.alarmTime);
+
+				if(now == row.alarmTime){
+					console.log("alarm");
+					port.write("0");
+				}
+			}
+
 		});
-
-		infinite();
-		function infinite () {
-			setTimeout(function() {
-		  		port.write("0");
-		  		infinite();
-		  	}, 5000);
-		}
-
-
-	});
-
-}catch(e){
-	console.log(e);
+  		//
+  		infinite();
+  	}, 1000);
 }
+
+});
+
+process.on('uncaughtException', function (err) {
+  console.log('Caught exception: ' + err);
+});
 
 
